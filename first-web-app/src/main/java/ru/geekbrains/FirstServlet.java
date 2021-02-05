@@ -26,11 +26,15 @@ public class FirstServlet implements Servlet {
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
         logger.info("New request to FirstServlet");
+<<<<<<< HEAD
 
         req.setAttribute("pageHeader", "Привет от сервлета!!!");
         config.getServletContext().getRequestDispatcher("/page_header").forward(req, res);
 
         res.getWriter().println("<h1>Hello from servlet!!!</h1>");
+=======
+        res.getWriter().println("<h1>Hello from servlet!</h1>");
+>>>>>>> 96a09a2de050ef12a718356956c91f0b3fb22b1c
     }
 
     @Override
