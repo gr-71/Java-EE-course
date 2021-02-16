@@ -34,9 +34,9 @@
         <location>/forbidden_error</location>
     </error-page>
 
-    <error-page>
-        <exception-type>java.lang.Exception</exception-type>
-        <location>/exception_page</location>
-    </error-page>
+<!--    <error-page>-->
+<!--        <exception-type>java.lang.Exception</exception-type>-->
+<!--        <location>/exception_page</location>-->
+<!--    </error-page>-->
 
 </web-app>
