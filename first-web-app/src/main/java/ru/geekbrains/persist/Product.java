@@ -12,7 +12,7 @@ public class Product {
 
     private BigDecimal price;
 
-    public Product() {
+    public Product(String name, String description) {
     }
 
     public Product(Long id, String name, String description, BigDecimal price) {
