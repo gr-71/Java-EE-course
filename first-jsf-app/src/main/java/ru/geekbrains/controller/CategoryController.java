@@ -1,8 +1,5 @@
 package ru.geekbrains.controller;
 
-import ru.geekbrains.persist.Category;
-import ru.geekbrains.persist.CategoryRepository;
-
 import javax.enterprise.context.SessionScoped;
 import javax.faces.event.ComponentSystemEvent;
 import javax.inject.Inject;
