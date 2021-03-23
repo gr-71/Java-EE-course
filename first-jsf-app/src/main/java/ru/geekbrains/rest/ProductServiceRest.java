@@ -3,6 +3,7 @@ package ru.geekbrains.rest;
 import ru.geekbrains.service.ProductRepr;
 
 import javax.ejb.Local;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
